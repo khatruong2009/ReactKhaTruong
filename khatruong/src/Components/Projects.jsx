@@ -21,7 +21,7 @@ function Projects() {
           link="https://khatruong.com/"
           image={kha}
           description="This is my personal website. It has been developed from scratch
-          using HTML and CSS. This website gets continually updated as I
+          using React, rendering HTML and CSS. This website gets continually updated as I
           learn new skills and look to improve the website."
         />
 
