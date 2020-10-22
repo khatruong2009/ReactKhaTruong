@@ -33,7 +33,7 @@ function Header () {
         >
         <a href="#contact">Contact</a>
         <a
-          href="https://github.com/khatruong2009/RockPaperScissors2"
+          href="https://github.com/khatruong2009"
           target="_blank"
           >GitHub</a>
       </div>

@@ -144,6 +144,16 @@ html {
  margin-top: 10%;
 }
 
+.below-subheader {
+  margin-bottom: 5%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.below-subheader a {
+  color: black;
+}
+
 .project-box img {
  max-width: 100%;
 }
