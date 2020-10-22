@@ -5,7 +5,7 @@ function Header () {
     <div>
       <div className="pic-container">
       <a href="https://www.khatruong.com"
-        ><img id="logo" src="../assets/images/kt.png" alt="Kha Truong logo"
+        ><img id="logo" src={require("../assets/images/kt.png")} alt="Kha Truong logo"
       /></a>
     </div>
 
