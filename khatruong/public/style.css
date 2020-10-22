@@ -344,6 +344,18 @@ transition: ease .5s;
 }
 
 @media screen and (max-width: 480px) {
+  #aboutMe p {
+    font-weight: normal;
+  }
+
+  #skills ul li {
+    font-weight: normal;
+  }
+
+  #projects p {
+    font-weight: normal;
+  }
+
  .first-text {
   width: 100%;
  }
