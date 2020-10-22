@@ -1,10 +1,14 @@
 import React from 'react';
-import './assets/css/style.css';
+import Header from "./Components/Header.jsx";
+import AboutMe from "./Components/AboutMe";
+import Skills from "./Components/Skills";
 
 function App() {
   return (
     <div className="App">
-      
+      <Header />
+      <AboutMe />
+      <Skills />
     </div>
   );
 }
