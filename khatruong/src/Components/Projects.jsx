@@ -8,6 +8,7 @@ var ben1 = require("../assets/images/bentruongwebsite1.png");
 var sketch = require("../assets/images/SKETCH.jpg");
 var kedus = require("../assets/images/KK.jpg");
 var negus = require("../assets/images/negus-project.png");
+var tip = require("../assets/images/tip.png");
 
 function Projects() {
   return (
@@ -16,6 +17,13 @@ function Projects() {
       <p className="below-subheader">The code for all of these projects can be found on my <a href="https://github.com/khatruong2009" target="_blank">GitHub.</a></p>
 
       <div className="project-box">
+        <ProjectRight 
+          name="React Tip Calculator"
+          link="https://khatruong2009.github.io/ReactTipCalculator/"
+          image={tip}
+          description="This is a tip calculator that was built using the React framework. I completed this project using a lot of Google for help but without a tutorial. It is currently being deployed on GitHub Pages."
+        />
+
         <ProjectLeft
           name="Kha Truong Website"
           link="https://khatruong.com/"
