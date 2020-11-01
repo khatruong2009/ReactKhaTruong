@@ -9,6 +9,8 @@ var sketch = require("../assets/images/SKETCH.jpg");
 var kedus = require("../assets/images/KK.jpg");
 var negus = require("../assets/images/negus-project.png");
 var tip = require("../assets/images/tip.png");
+var color = require("../assets/images/color.png");
+var pass = require("../assets/images/pass.png");
 
 function Projects() {
   return (
@@ -17,20 +19,35 @@ function Projects() {
       <p className="below-subheader">The code for all of these projects can be found on my <a href="https://github.com/khatruong2009" target="_blank">GitHub.</a></p>
 
       <div className="project-box">
-        <ProjectRight 
-          name="React Tip Calculator"
-          link="https://khatruong2009.github.io/ReactTipCalculator/"
-          image={tip}
-          description="This is a tip calculator that was built using the React framework. I completed this project using a lot of Google for help but without a tutorial. It is currently being deployed on GitHub Pages."
-        />
 
-        <ProjectLeft
+      <ProjectRight
           name="Kha Truong Website"
           link="https://khatruong.com/"
           image={kha}
           description="This is my personal website. It has been developed from scratch
           using React, rendering HTML and CSS. This website gets continually updated as I
           learn new skills and look to improve the website."
+        />
+
+        <ProjectLeft
+          name="React Random Background Color Switcher"
+          link="https://khatruong2009.github.io/ReactRandomColor/"
+          image={color}
+          description="This is a random background color generator made with React. When the button is clicked, the background color is changed to a random hex value."
+        />
+
+        <ProjectRight 
+          name="Pass the Message App"
+          link="https://khatruong2009.github.io/PassMessage/"
+          image={pass}
+          description="This is a pass the message app made with React. Once the submit button is clicked, the message that was in the input box will display below and the input box will be cleared for the next message."
+        />
+
+        <ProjectLeft 
+          name="React Tip Calculator"
+          link="https://khatruong2009.github.io/ReactTipCalculator/"
+          image={tip}
+          description="This is a tip calculator that was built using the React framework. I completed this project using a lot of Google for help but without a tutorial. It is currently being deployed on GitHub Pages."
         />
 
         <ProjectRight 
