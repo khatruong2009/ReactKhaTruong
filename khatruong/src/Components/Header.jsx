@@ -27,7 +27,7 @@ function Header () {
         <a href="#aboutMe">About Me</a>
         <a href="#projects">Projects</a>
         <a
-          href="https://docs.google.com/document/d/1e9Kg1A9TfgcJvcq3RVLETOjPjGwSp9NX5OryN-QxyC8/edit?usp=sharing"
+          href="https://drive.google.com/file/d/1exX5_44x3GkyvSkM2MB6G5ExlcbrQWJw/view?usp=sharing"
           target="_blank"
           >Resume</a
         >
