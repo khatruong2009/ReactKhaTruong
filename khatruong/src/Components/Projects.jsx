@@ -11,6 +11,7 @@ var negus = require("../assets/images/negus-project.png");
 var tip = require("../assets/images/tip.png");
 var color = require("../assets/images/color.png");
 var pass = require("../assets/images/pass.png");
+var wip = require("../assets/images/wip.png");
 
 function Projects() {
   return (
@@ -20,13 +21,20 @@ function Projects() {
 
       <div className="project-box">
 
-      <ProjectRight
+      <ProjectLeft
           name="Kha Truong Website"
           link="https://khatruong.com/"
           image={kha}
           description="This is my personal website. It has been developed from scratch
           using React, rendering HTML and CSS. This website gets continually updated as I
           learn new skills and look to improve the website."
+        />
+
+        <ProjectRight
+          name="Finance Tools Website"
+          link="https://khatruong2009.github.io/FinanceTools/"
+          image={wip}
+          description="This is a multi-page website that contains personal finance calculators built using React with React Router. The project includes HTML, CSS, JavaScript, React, React-Router, and APIs. This website is not yet completed but you can click the link to see my progress."
         />
 
         <ProjectLeft
