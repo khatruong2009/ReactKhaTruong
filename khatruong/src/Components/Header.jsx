@@ -2,7 +2,7 @@ import React from "react";
 
 function Header () {
   return (
-    <div>
+    <div id="home">
       <div className="pic-container">
       <a href="https://www.khatruong.com"
         ><img id="logo" src={require("../assets/images/kt.png")} alt="Kha Truong logo"
@@ -27,14 +27,12 @@ function Header () {
         <a href="#aboutMe">About Me</a>
         <a href="#projects">Projects</a>
         <a
-          href="https://drive.google.com/file/d/1exX5_44x3GkyvSkM2MB6G5ExlcbrQWJw/view?usp=sharing"
-          target="_blank"
+          href="#contact"
           >Resume</a
         >
         <a href="#contact">Contact</a>
         <a
-          href="https://github.com/khatruong2009"
-          target="_blank"
+          href="#contact"
           >GitHub</a>
       </div>
     </div>

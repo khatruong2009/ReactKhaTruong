@@ -12,6 +12,7 @@ var tip = require("../assets/images/tip.png");
 var color = require("../assets/images/color.png");
 var pass = require("../assets/images/pass.png");
 var wip = require("../assets/images/wip.png");
+var finance = require("../assets/images/financetool.png");
 
 function Projects() {
   return (
@@ -33,8 +34,8 @@ function Projects() {
         <ProjectRight
           name="Finance Tools Website"
           link="https://khatruong2009.github.io/FinanceTools/"
-          image={wip}
-          description="This is a multi-page website that contains personal finance calculators built using React with React Router. The project includes HTML, CSS, JavaScript, React, React-Router, and APIs. This website is not yet completed but you can click the link to see my progress."
+          image={finance}
+          description="This is a multi-page website that contains personal finance calculators built using React with React Router. The project includes JavaScript, React, React-Router, HTML, CSS and API requests."
         />
 
         <ProjectLeft

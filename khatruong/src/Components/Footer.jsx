@@ -5,7 +5,7 @@ function Footer() {
     <footer>
       <div className="footer">
         <div className="name">
-          <a href="https://www.khatruong.com">
+          <a href="#home">
             <h3>
               Kha Truong
             </h3>
@@ -16,13 +16,13 @@ function Footer() {
           <a href="#aboutMe">About Me</a>
           <a href="#projects">Projects</a>
           <a
-            href="https://drive.google.com/file/d/1R9H4vVhiPkr7zMDmmEYPWe-v0Cz1CySh/view?usp=sharing"
+            href="https://drive.google.com/file/d/1cUIvCbbW6KqDGcDe8FKP7IgUjIrK8Eri/view?usp=sharing"
             target="_blank"
             >Resume</a
           >
           <a href="#contact">Contact</a>
           <a
-            href="https://github.com/khatruong2009/RockPaperScissors2"
+            href="https://github.com/khatruong2009"
             target="_blank"
             >GitHub</a
           >
