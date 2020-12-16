@@ -18,7 +18,7 @@ function Projects() {
   return (
     <div className="projects" id="projects">
       <h2 className="subheader">PROJECTS</h2>
-      <p className="below-subheader">The code for all of these projects can be found on my <a href="https://github.com/khatruong2009" target="_blank">GitHub.</a></p>
+      <p className="below-subheader">The code for all of these projects can be found on my <a href="https://github.com/khatruong2009" target="_blank">GitHub.</a> Click on thumbnails to see projects.</p>
 
       <div className="project-box">
 
@@ -33,9 +33,9 @@ function Projects() {
 
         <ProjectRight
           name="Finance Tools Website"
-          link="https://khatruong2009.github.io/FinanceTools/"
+          link="https://finance-tools.s3.amazonaws.com/index.html"
           image={finance}
-          description="This is a multi-page website that contains personal finance calculators built using React with React Router. The project includes JavaScript, React, React-Router, HTML, CSS and API requests."
+          description="This is a multi-page website hosted on AWS S3 that contains personal finance calculators built using React with React Router. The project includes JavaScript, React, React-Router, HTML, CSS and API requests."
         />
 
         <ProjectLeft
