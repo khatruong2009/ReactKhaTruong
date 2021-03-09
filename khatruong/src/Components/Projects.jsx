@@ -19,7 +19,7 @@ function Projects() {
 
       <div className="project-box">
 
-      <ProjectLeft
+        <ProjectLeft
           name="Kha Truong Website"
           link="https://khatruong.com/"
           image={kha}
