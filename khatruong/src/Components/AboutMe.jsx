@@ -2,8 +2,8 @@ import React from "react"
 
 function AboutMe () {
   return (
-    // <!--about me section-->
     <div className="aboutMe" id="aboutMe">
+      {/* about me section--> */}
       <h2 className="subheader">ABOUT ME</h2>
       <p>
         I graduated from George Mason University in 2019 with a Bachelor's
