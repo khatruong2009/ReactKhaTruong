@@ -27,7 +27,8 @@ html {
 
 .first-text {
   text-align: center;
-  width: 60%;
+  /* width: 60%; */
+  max-width: 100%;
 }
 
 .bold {
@@ -350,7 +351,7 @@ html {
 
 @media screen and (max-width: 850px) and (min-width: 481px) {
   .first-text {
-    width: 80%;
+    /* width: 80%; */
   }
 
   .project-image {
@@ -368,7 +369,7 @@ html {
 
 @media screen and (max-width: 1150px) and (min-width: 851px) and (orientation: landscape) {
   .first-text {
-    width: 75%;
+    /* width: 75%; */
   }
 
   .project-image {
@@ -394,7 +395,7 @@ html {
   }
 
   .first-text {
-    width: 100%;
+    /* width: 100%; */
   }
 
   .intro-text {
