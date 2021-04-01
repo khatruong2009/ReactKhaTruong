@@ -2,14 +2,15 @@ import React from "react";
 import ProjectRight from "./ProjectRight";
 import ProjectLeft from "./ProjectLeft";
 
-var kha = require("../assets/images/personalwebsite1.png");
-var rps = require("../assets/images/rps1.png");
-var ben1 = require("../assets/images/bentruongwebsite1.png");
-var sketch = require("../assets/images/SKETCH.jpg");
-var kedus = require("../assets/images/KK.jpg");
-var negus = require("../assets/images/negus-project.png");
-var finance = require("../assets/images/financetool.png");
-var tip = require("../assets/images/react-native.png");
+const kha = require("../assets/images/personalwebsite1.png");
+const rps = require("../assets/images/rps1.png");
+const ben1 = require("../assets/images/bentruongwebsite1.png");
+const sketch = require("../assets/images/SKETCH.jpg");
+const kedus = require("../assets/images/KK.jpg");
+const negus = require("../assets/images/negus-project.png");
+const finance = require("../assets/images/financetool.png");
+const tip = require("../assets/images/react-native.png");
+const halalVote= require("../assets/images/halalvote.PNG");
 
 function Projects() {
   return (
@@ -19,13 +20,20 @@ function Projects() {
 
       <div className="project-box">
 
-        <ProjectLeft
+        <ProjectRight
           name="Kha Truong Website"
           link="https://khatruong.com/"
           image={kha}
           description="This is my personal website. It has been developed from scratch
           using React, rendering HTML and CSS. This website gets continually updated as I
           learn new skills and look to improve the website."
+        />
+
+        <ProjectLeft
+          name="Halal Vote"
+          link="https://halalvote.com"
+          image={halalVote}
+          description="This project is a social media app built on React. Halalvote is an app where users get to vote on whether different topics are Halal or Haram. This is a team-based project where I work with two other software engineers. The app is built on React with a MySQL database that is hosted on AWS."
         />
 
         <ProjectRight
