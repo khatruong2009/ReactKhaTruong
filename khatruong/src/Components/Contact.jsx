@@ -74,7 +74,7 @@ function Contact() {
 
         <div className="contact-text">
           <p>Resume:</p>
-          <a href="https://drive.google.com/file/d/1cUIvCbbW6KqDGcDe8FKP7IgUjIrK8Eri/view?usp=sharing" target="_blank">
+          <a href="https://drive.google.com/file/d/1bHcGpYWztT6-FDJ5FbdZbKz0NVA1VCr3/view?usp=sharing" target="_blank">
             <p>Google Drive Link</p>
           </a>
         </div>
