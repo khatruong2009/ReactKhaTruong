@@ -12,7 +12,7 @@ function Support() {
 
       <div className="contact-info">
         <h3>Contact Information</h3>
-        <p>Email: khatruong2009@gmail.com</p>
+        <p>Email: <a href="mailto:khatruong2009@gmail.com">khatruong2009@gmail.com</a></p>
       </div>
     </div>
   )
